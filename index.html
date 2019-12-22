@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>gdt</title>
+</head>
+<body>
+    <div>tinymcd demo</div>
+    <div id="tinymcearea"></div>
+</body>
+<script src="https://cdn.tiny.cloud/1/0somyrhokaq2xfr8ywon5wkndbko2wnqc8f3uma23h7eiy9k/tinymce/5/tinymce.min.js"></script>
+
+<script>
+tinymce.init({
+   selector: '#tinymcearea',
+   plugins: 'a11ychecker advcode casechange formatpainter linkchecker lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycomments tinydrive tinymcespellchecker',
+   toolbar: 'a11ycheck addcomment showcomments casechange checklist code formatpainter insertfile pageembed permanentpen table',
+   toolbar_drawer: 'floating',
+   tinycomments_mode: 'embedded',
+   tinycomments_author: 'Author name'
+});
+</script>
+</html>
